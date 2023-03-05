@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="#232f34">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:textAppearance="@style/mobile_app_"
+            android:gravity="center_horizontal|top"
+            />
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:textAppearance="@style/mobile_app_"
+            android:gravity="center_horizontal|top" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp"
+            android:textAppearance="@style/mobile_app_"
+            android:gravity="center_horizontal|top" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

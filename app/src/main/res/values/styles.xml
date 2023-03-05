@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mobile_app_">
+        <item name="android:textSize">
+            25.9sp
+        </item>
+        <item name="android:textColor">
+            @color/favorite_yellow
+        </item>
+    </style>
+</resources>
